@@ -818,7 +818,8 @@ Must be one of `mocha`, `macchiato`, `frappe`, or `latte`"
                (rst-level-7 :foreground ,ctp-blue)
                (rst-level-8 :foreground ,ctp-blue)
                ;; show-paren
-               (show-paren-match :foreground ,ctp-pink
+               (show-paren-match :foreground ,ctp-base
+                                 :background ,ctp-red
                                  :weight bold)
                (show-paren-match-expression :inherit match)
                (show-paren-mismatch :inherit warning)
